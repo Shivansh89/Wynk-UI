@@ -1,0 +1,55 @@
+
+@media screen and (min-width: 829px){
+    .Drawer-Box{
+        display: none;
+    }
+}
+.ant-space-item{
+    margin-top: 3px !important;
+}
+.ant-btn{
+    background-color:#21252d ;
+    border: none;
+    color: red;
+
+    margin-left: -10px;
+}
+.ant-drawer-content{
+   background: none; 
+}
+.ant-drawer-header-close-only{
+    background: none;
+}
+
+.ant-drawer-body h1{
+    color: #fff !important;
+    font-weight: 700;
+}
+.ant-drawer-content-wrapper{
+    width: 100% !important;
+}
+
+.anticon-close{
+    color: #fff;
+}
+.ant-drawer-close{
+    margin-left: -30px;
+    margin-top: 10px;
+}
+.ant-btn:hover{
+    background-color:#21252d !important;
+    border: none !important;
+    color: red !important;
+    background: none;
+}
+.Social-icons svg {
+    color: #fff;
+   
+margin-right: 30px;
+}
+.drawer-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+    height: 100%;
+}

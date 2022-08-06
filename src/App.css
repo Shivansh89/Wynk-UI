@@ -1,0 +1,19 @@
+
+.dark-theme{
+    background-color:#0c0f12 !important;
+    color: #fff !important;
+}
+.light-theme{
+    background-color: #fff !important;
+    color: #0c0f12 !important;
+}
+.dark-theme-header{
+    background-color:#21252d !important;
+    border-bottom: 0.3rem solid #00000000;
+    color: #fff !important;
+}
+.light-theme-header{
+    background-color: #fff !important;
+    color: #0c0f12 !important;
+    border-bottom: 0.3rem solid #b5b5b538;
+}

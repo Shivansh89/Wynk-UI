@@ -1,0 +1,183 @@
+.customRedButton{
+    background-color: red !important;
+        border-radius: 20px !important;
+        padding: 2px !important;
+     }
+     
+     .playstorebutton{
+         display: inline-flex;
+         margin: 2%;
+     }
+.login_container{
+    z-index: 50;
+    margin: 5% 15%;
+    width: 70%;
+    height: 50vh;
+}
+.grid{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+}
+.login_image {
+    margin: 0;
+    width: 40%;
+    height: 100%;
+    padding: 0;   
+    background-color:rgb(248 224 251);
+    border-radius: 6% 0 0 6%;
+    
+}
+
+.login_image2{   
+    border-radius: 6% 0 0 6%; 
+    height: 100%;
+    width: 100%;
+}
+
+.login_containerr{
+    margin: 0px;
+    width: 60%;
+    height: 476px;
+   background-color: inherit !important;
+    border-radius: 0 5% 5% 0;
+    padding-bottom: 19%;
+}
+.login_sub{
+    margin: 10%;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.number1 {  
+    background-color: #000000;
+    padding: 2%;
+    border: none;
+    color: rgb(132, 142, 150);
+    width: 10%;
+    height: 100%;
+    margin-right: 3%;
+    border-radius: 5%;
+
+}
+.number2{
+    background-color: #000000;
+    border: none;
+    color: rgb(132, 142, 150);
+    width: 70%;
+    height: 100%;
+    margin-left: 3%;
+    border-radius: 5%;
+}
+
+.a1, .b1, .c1, .d1{
+    padding: 2%;
+    color:#fff !important;
+    
+}
+
+.a1{
+    font-size: 135%;
+}
+.b1{
+    opacity: 0.6;
+    font-size: 135%;
+}
+
+.d1{
+    
+    margin: 5% 5% 5% 25% !important;
+    width: 25%;
+    
+}
+
+
+.ant-input .c1{
+    color: aqua;
+}
+
+Button, .sendotp{
+        border-radius: 10px;
+        border: 1px solid red;
+        color: rgb(230, 148, 148);
+}
+.ant-modal-body{
+    padding: 0 !important;
+    border-radius: 5% 5% 5% 5% !important;
+}
+
+.ant-modal-footer{
+
+display:none !important;
+}
+
+.ant-modal-content {
+    border-radius: 5% !important;
+}
+.ant-modal-close-x {
+    margin-top: 5px;
+    text-align: left !important;
+    width: 60px !important;
+height: 21px;
+margin: 16px 26px
+
+}
+
+.customRedButton{
+    background-color: red !important;
+        border-radius: 20px !important;
+        padding: 2px !important;
+     }
+
+.ant-modal-wrap.ant-modal-centered{
+        background: none;
+      } 
+
+
+     @media (max-width: 893px){
+        .login_image {
+            display: none;
+            
+        }
+        
+        .login_image2{   
+            display: none;
+        }
+        .login_containerr {
+            margin: 0px;
+            width: 100%;
+            height: 476px;
+            background-color: inherit !important;
+            border-radius: 5% 5% 5% 5%;
+            padding-bottom: 19%;
+        }
+        .ant-modal-content{
+            margin: 10%;
+        }
+    }
+    @media (max-width: 550px){
+        .ant-modal-content{
+            margin: 0;
+        }
+
+    }
+.ant-btn{
+    color: inherit !important;
+    background: none !important;
+    transition: none !important;
+}
+.ant-btn:hover{
+    color: inherit !important;
+    background: none !important;
+}
+
+.ant-modal-content{
+    background-color: rgb(70, 70, 70) !important;
+}

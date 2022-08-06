@@ -1,0 +1,199 @@
+.mainFooter{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    margin: 0 6rem;
+    background-color:inherit ;
+    margin-bottom: 2rem;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+
+}
+.Footer-main-message h2{
+    color: inherit !important;
+}
+.Footer-main-message h4{
+    color: inherit !important;
+}
+.footer-logo img{
+    width: 75px;
+    margin: 1.5rem;
+}
+.download-icons img{
+   margin-right: 1.5rem;
+}
+.site-card-wrapper{
+    color: inherit !important;
+    background-color: inherit !important;
+    padding: 0 6rem;
+}
+.ant-card{
+    background: none !important;
+}
+.ant-card-head{
+    color: inherit !important;
+    border: none !important;
+    font-weight: 600;
+    font-size: inherit;
+    padding: 0px !important;
+}
+.card-content p{
+    color: #898989 !important ;
+    font-size: small !important;
+}
+.ant-card-body:hover{
+    cursor: pointer;
+}
+.light-theme-footer{
+    background-color: #b5b5b538 !important;
+    color: black !important;
+}
+.footer-connect{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-top: 1px solid #b5b5b55b;
+    border-bottom: 1px solid #b5b5b55b;
+    margin: 1rem 6rem;
+    
+
+}
+.footer-links li{
+    display: inline;
+    padding-right:0.25rem;
+
+
+}
+.footer-links li a{
+    color: inherit !important;
+   font-weight: 500;
+}
+.footer-links{
+    padding: 0 !important;
+}
+.footer-social-icons{
+    padding: 0 0.5rem !important;
+    width: auto !important;
+}
+.footer-info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 6rem;
+}
+.footer-info p{
+    font-size: smaller;
+    color: #898989 !important;
+}
+.footer-info-text{
+    margin-left: 8rem;
+}
+
+.ant-menu-submenu-arrow{
+    color: inherit !important;
+}
+
+.ant-menu-submenu-active {
+    color: inherit !important;
+}
+.ant-menu-item{
+    white-space: inherit !important
+}
+
+.ant-menu-item-icon{
+    display: none;
+}
+.ant-menu-sub{
+    background: none !important;
+    color: inherit !important;
+}
+.ant-menu-submenu-title:hover{
+    color: inherit !important;
+}
+.ant-menu-submenu-title:active {
+    background:none !important;
+}
+.ant-menu-item-only-child{
+    height: fit-content !important;
+    padding-left: 32px !important;
+    color: #898989 !important;
+
+}
+.ant-menu-title-content{
+    font-size: smaller;
+}
+.small-footer-button button{
+    background-color: red;
+    padding: 0.4rem 1.5rem; 
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #fff !important;
+}
+
+
+@media screen and (max-width: 1280px){
+    .mainFooter{
+        margin: 0 2rem;
+    }
+    .site-card-wrapper{
+        padding: 0 2rem;;
+    }
+    .footer-connect{
+        margin: 1rem 2rem ;
+    }
+    .footer-info{
+        padding: 0 2rem;
+    }
+}
+@media screen and (max-width: 1021px){
+    .footer-logo img{
+        display: none;
+    }
+    .Footer-main-message{
+        margin: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 783px){
+    .site-card-wrapper{
+        display: none;
+    }
+    .mainFooter{
+        display: flex;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+    .download-icons{
+        display: none !important;
+    }
+    .footer-connect{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .footer-info-text{
+        margin: 0 !important;
+    }
+   
+
+}
+@media screen and (min-width: 784px){
+    .ant-menu{
+        display: none !important;
+    }
+    .small-footer-button button{
+        display: none;
+    }
+    
+}

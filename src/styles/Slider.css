@@ -1,0 +1,45 @@
+.cars {
+    padding-top: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 3rem;
+  }
+  .ant-image-img {
+    border-radius: 17px;
+  }
+
+  .ant-image-mask{
+      border-radius: 17px;
+  }
+  @media screen and (max-width: 1000px) {
+    .ant-carousel .slick-slider {
+      height: 60vh;
+    }
+  }
+  @media screen and (max-width: 910px) {
+    .cars {
+      width: 827px !important;
+      padding: 10px !important;
+    }
+    .ant-carousel .slick-slider {
+      height: 51vh;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .cars {
+      width: 600px !important;
+      padding: 10px !important;
+    }
+    .ant-carousel .slick-slider {
+      height: 40vh !important;
+    }
+  }
+  .ant-carousel .slick-prev::before {
+    content: '';
+}
+.ant-carousel .slick-next::before {
+    content: '';
+}
+.ant-image-mask-info{
+    display: none;
+}

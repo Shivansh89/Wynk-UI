@@ -1,0 +1,127 @@
+.ant-layout-header {
+    display: flex;
+    align-items: center;
+    height: 5rem !important ; 
+    padding: 0 6rem !important;
+    background-color: inherit;
+    border-top: 3px solid red;
+    justify-content: space-between;
+  }
+  .logo{
+    height:1.86rem;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    
+  }
+   .anticon{
+    color: inherit !important ;
+    margin-left: 2.5rem;
+  }
+  .anticon svg {
+    cursor: pointer;
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+  }
+  .ant-layout-header a{
+    color: inherit;
+    margin-left: 0.5rem;
+    
+  }
+  .menu-links a{
+    color: inherit !important;
+  }
+  .menu-links a:hover{
+    color: rgb(158, 158, 158) !important;
+  }
+  .headerLinksPositioning{
+    margin-top:1.9rem ;
+  }
+  .ant-space{
+    gap: 0px !important;
+  }
+.search-a:hover{
+  color: inherit !important;
+}
+.small-menu a{
+  color: inherit !important;
+}
+.small-menu a:hover{
+  color: rgb(158, 158, 158) !important;
+}
+a:hover{
+  color: inherit !important;
+}
+a{
+  transition: none !important;
+  color: inherit !important;
+}
+.small-links{
+    height:1.86rem;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+.customRedButton{
+  color: white !important;
+    background: red !important;
+}
+.small-links a{
+  margin-left: 0.8rem;
+}
+.PersonIcon{
+  margin-left: 0.8rem;
+}
+
+@media screen and (max-width: 829px){
+  .menu-links{
+    display: none !important;
+  }
+  .logo a{
+    display: none !important;
+  }
+  .
+  {
+    display: none !important;
+  }
+  .anticon-right-circle{
+    display: none !important;
+  }
+  .anticon-left-circle{
+    display: none !important;
+  }
+  .logo{
+    height: 1.55rem;
+  }
+  .searchLogo{
+    display: none !important;
+  }
+
+}
+
+@media screen and (max-width: 1280px){
+  .ant-layout-header{
+    padding: 2rem !important;
+  }
+}
+
+@media screen and (min-width: 830px){
+  .small-menu{
+    display: none !important;
+  } 
+}
+@media screen and (min-width: 742px){
+  .PersonIcon{
+    display: none !important;
+  }
+}
+@media screen and (max-width: 740px){
+  .SignIn{
+    display: none !important;
+  }
+}
+
+.onClick-searchbar{
+  display: none !important
+  ;
+}
