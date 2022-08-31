@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Wynk-UI/static/css/main.c8321ffa.css",
+    "main.js": "/Wynk-UI/static/js/main.8e438709.js",
+    "static/js/787.b9c3666a.chunk.js": "/Wynk-UI/static/js/787.b9c3666a.chunk.js",
+    "static/media/revicons.eot": "/Wynk-UI/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Wynk-UI/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/logo-light.svg": "/Wynk-UI/static/media/logo-light.41227269d2faf5840bd806250f8046ae.svg",
+    "static/media/logo-dark.svg": "/Wynk-UI/static/media/logo-dark.1704e8af7f13de2a3829c583b003109e.svg",
+    "static/media/revicons.woff": "/Wynk-UI/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Wynk-UI/index.html",
+    "main.c8321ffa.css.map": "/Wynk-UI/static/css/main.c8321ffa.css.map",
+    "main.8e438709.js.map": "/Wynk-UI/static/js/main.8e438709.js.map",
+    "787.b9c3666a.chunk.js.map": "/Wynk-UI/static/js/787.b9c3666a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8321ffa.css",
+    "static/js/main.8e438709.js"
+  ]
+}
